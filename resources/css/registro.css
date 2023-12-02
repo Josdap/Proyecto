@@ -1,0 +1,370 @@
+table {
+  border-collapse: collapse;
+  margin-left: -50px;
+  width: 150%;
+  margin-top: 10px;
+  text-align: left;
+}
+
+
+th, td {
+  padding: 10px;
+  text-align: left;
+
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td {
+  background-color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+h2{
+
+  margin-left: -200px;
+}
+.registrar-btn{
+  margin-top: 10px;
+  margin-left: -200px;
+
+}
+
+#registrar-btn {
+  background-color: darkblue;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 200px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#registrar-btn:hover {
+  background-color: darkblue;
+  transform: scale(1.1);
+}
+
+.reporte-btn{
+  margin-top: 10px;
+  margin-left: 650px;
+  
+
+}
+
+#reporte-btn {
+ background-color: darkred;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 75px;
+}
+
+.reporte-btn-excel{
+  margin-top: 10px;
+
+  
+
+}
+
+#reporte-btn-excel {
+ background-color: green;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 75px;
+  margin-left: 10px;
+}
+
+
+.btn-editar {
+  background-color: blue;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 30px;
+  width: 80px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-editar:hover {
+  background-color: blue;
+  color: white;
+  transform: scale(1.1);
+}
+
+.btn-eliminar {
+  background-color: red;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 30px;
+  width: 80px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-eliminar:hover {
+  background-color: red;
+  color: white;
+  transform: scale(1.1);
+}
+
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 40px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-left: 600px;
+}
+
+#search-input {
+  flex: 1;
+  height: 100%;
+  padding: 0 10px;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  color: #333;
+}
+
+#search-input::placeholder {
+  color: #999;
+}
+
+#search-input:focus {
+  outline: none;
+}
+
+
+.search-button {
+  width: 40px;
+  height: 100%;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.sidebar a.active {
+  background-color: #003366;
+  color: white;
+}
+
+.reporte-btn-container {
+    display: flex;
+    justify-content: flex-end;
+   margin-right: -160px;
+}
+
+.reporte-btn{
+  margin-top: 10px;
+  margin-left: 650px;
+  
+
+}
+
+#reporte-btn {
+ background-color: darkred;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 75px;
+   transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#reporte-btn:hover{
+  background-color: darkred;
+  transform: scale(1.15);
+}
+
+#reporte-btn-excel {
+  background-color: green;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 75px;
+  margin-left: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#reporte-btn-excel:hover {
+  background-color: darkgreen;
+  transform: scale(1.15);
+}
+
+
+#registrar-tipo-recurso-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: deepskyblue;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#registrar-tipo-recurso-btn i {
+
+}
+
+#registrar-tipo-recurso-btn:hover {
+    background-color: deepskyblue;
+    transform: scale(1.1);
+}
+
+
+
+.regresar-btn, .registrar-btn {
+    display: inline-block;
+    
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.registrar-btn i {
+    margin-right: 5px;
+}
+
+
+
+.regresar-btn:hover, .registrar-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+
+
+.regresar-btn {
+    margin-right: 210px;
+}
+
+
+.recurso-btn,
+.personal-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.buton-container{
+
+  margin-left: -200px;
+}
+
+
+.recurso-btn i,
+.personal-btn i {
+  margin-right: 5px;
+}
+
+.recurso-btn:hover,
+.personal-btn:hover {
+  transform: scale(1.1);
+}
+
+
+.stock-verde {
+    background-color: green;
+    padding: 5px 10px;
+    margin-top: 20%;
+    margin-left: 30%;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    color: white;
+}
+
+.stock-amarillo {
+    background-color: yellow;
+    margin-top: 20%;
+    margin-left: 30%;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    color: black;
+}
+
+.stock-rojo {
+    background-color: red;
+    margin-top: 20%;
+    margin-left: 30%;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    color: white;
+}

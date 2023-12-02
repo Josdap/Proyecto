@@ -1,0 +1,123 @@
+.sidebar {
+  background-color: #336699;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.logo img {
+  width: 60%;
+  margin-right: 20px;
+}
+
+.sidebar a {
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  margin-bottom: 20px;
+
+}
+
+.sidebar a:hover {
+  background-color: #003366;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .sidebar {
+    width: 100%;
+  }
+
+  .logo img {
+    width: 30%;
+    margin-right: 10px;
+  }
+
+  .sidebar a {
+    font-size: 16px;
+    padding: 10px 8px;
+  }
+}
+
+.navbar {
+  background-color: #336699;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.navbar .btn {
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  border: none;
+  margin-left: auto;
+  margin-right: 20px;
+    border-radius: 20px;
+
+}
+
+.navbar .btn:hover {
+  color: white;
+ background-color: #003366;
+  cursor: pointer;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar .btn {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+}
+
+.sidebar a.active {
+  background-color: #003366;
+  color: white;
+}
+.regresar-btn {
+  display: inline-block;
+  padding: 10px 20px;
+ background-color: darkblue;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 10px;
+width: 120px;
+  margin-left: -200px;
+
+}
+
+.regresar-btn:hover {
+
+  
+  color: white;
+}
+
+.fa-external-link-alt {
+    text-align: center;
+    width: 50%;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-left: 17px;
+    transition: font-size 0.3s ease;
+}
+
+.fa-external-link-alt:hover {
+    font-size: 30px;
+}
